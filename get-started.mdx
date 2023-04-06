@@ -1,0 +1,66 @@
+---
+title: Run pipelines locally
+description: "Run a Cicada pipeline in < 2 minutes"
+---
+
+This guide helps you run a Typescript CI/CD pipeline locally
+
+## 0. Dependencies
+Make sure you have Docker & deno installed
+```bash
+brew install deno
+brew install --cask docker
+```
+
+## 1. Install Cicada CLI
+
+<Tabs>
+  <Tab title="NPM/Yarn">
+    
+    ```bash
+    npm install -g cicada
+    yarn global add cicada
+    ```
+
+  </Tab>
+  <Tab title="Brew">
+    ```bash
+    brew install cicada
+    ```
+  </Tab>
+  <Tab title="curl">
+    ```bash
+    curl -fSsL https://raw.githubusercontent.com/cicadahq/release/main/download.sh | sh
+    ```
+
+  </Tab>
+</Tabs>
+
+
+
+## 2. Create a new pipeline
+
+Navigate to a project
+```bash
+cd path/to/my/project
+```
+And run the following
+```bash
+cicada init
+```
+This will create a `.cicada/my-pipeline.ts` file that looks like this
+
+```typescript
+<show example>
+```
+
+## 3. Run your pipeline
+```bash
+cicada run my-pipeline
+```
+
+That's it! Now set up your pipeline so it runs in the cloud
+
+<Card title="Run my pipeline in the cloud" icon="link" href="/cloud-pipelines">
+  
+</Card>

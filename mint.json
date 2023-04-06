@@ -1,65 +1,51 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Documentation Starter Kit",
-  "logo": {
-    "dark": "/logo/dark.png",
-    "light": "/logo/light.png"
-  },
+  "name": "Cicada Docs",
+  "logo": "/logo/logo.svg",
   "favicon": "/favicon.png",
   "colors": {
     "primary": "#0069ED",
     "light": "#4D9CFF",
     "dark": "#0050B4"
   },
-  "topbarLinks": [
-    {
-      "name": "Documentation",
-      "url": "https://mintlify.com/docs"
-    }
-  ],
+  "topbarLinks": [{
+    "name": "Login",
+    "url": "https://cicada.build/login"
+  }],
   "topbarCtaButton": {
-    "name": "Get Started",
-    "url": "https://github.com/mintlify/starter"
+    "name": "Sign Up",
+    "link": "https://cicada.build/sign-up"
   },
-  "anchors": [
-    {
-      "name": "API Reference",
-      "icon": "rectangle-terminal",
-      "url": "api-reference"
-    },
-    {
-      "name": "Changelog",
-      "icon": "list",
-      "url": "https://mintlify.com"
-    },
-    {
-      "name": "Community",
-      "icon": "discord",
-      "url": "https://mintlify.com/community"
-    }
-  ],
   "navigation": [
     {
-      "group": "Home",
-      "pages": ["introduction", "features"]
+      "group": "Quickstart",
+      "pages": ["get-started", "cloud-pipelines"]
     },
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
+      "group": "How do pipelines work",
+      "pages": ["guides/pipelines-jobs-steps", "guides/pipeline-examples"]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Reference",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
+        "reference/cli",
+        "reference/schema"
+      ]
+    },
+    {
+      "group": "Support",
+      "pages": [
+        "other/discord"
       ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/cicadahq",
+    "github": "https://github.com/cicadahq",
+    "discord": "https://discord.gg/g2PRPm4u4Y"
+  },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": true
   }
 }
