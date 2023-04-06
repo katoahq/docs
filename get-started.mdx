@@ -14,16 +14,23 @@ brew install --cask docker
 
 ## 1. Install Cicada CLI
 
+
 <Tabs>
-  <Tab title="NPM/Yarn">
+  <Tab title="yarn">
     
     ```bash
-    npm install -g cicada
-    yarn global add cicada
+    yarn add -D @cicadahq/cicada
     ```
 
   </Tab>
-  <Tab title="Brew">
+  <Tab title="npm">
+    
+    ```bash
+    npm install -D @cicadahq/cicada 
+    ```
+
+  </Tab>
+  <Tab title="brew">
     ```bash
     brew install cicada
     ```
@@ -39,20 +46,12 @@ brew install --cask docker
 
 
 ## 2. Create a new pipeline
-
-Navigate to a project
-```bash
-cd path/to/my/project
-```
-And run the following
+Navigate to a project then run 
 ```bash
 cicada init
 ```
-This will create a `.cicada/my-pipeline.ts` file that looks like this
+This will create an example pipeline at `.cicada/my-pipeline.ts`
 
-```typescript
-<show example>
-```
 
 ## 3. Run your pipeline
 ```bash

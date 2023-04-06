@@ -4,7 +4,7 @@
   "logo": "/logo/logo.svg",
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0069ED",
+    "primary": "#38bef8",
     "light": "#4D9CFF",
     "dark": "#0050B4"
   },
@@ -14,11 +14,23 @@
   }],
   "topbarCtaButton": {
     "name": "Sign Up",
-    "link": "https://cicada.build/sign-up"
+    "url": "https://cicada.build/signup"
   },
+  "anchors": [
+    {
+      "name": "Discord Community",
+      "icon": "discord",
+      "url": "https://cicada.build/discord"
+    },
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/cicadahq/cicada"
+    }
+  ],
   "navigation": [
     {
-      "group": "Quickstart",
+      "group": "Getting Started",
       "pages": ["get-started", "cloud-pipelines"]
     },
     {
@@ -33,16 +45,17 @@
       ]
     },
     {
-      "group": "Support",
+      "group": "Other",
       "pages": [
-        "other/discord"
+        "Support",
+        "Roadmap"
       ]
     }
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/cicadahq",
-    "github": "https://github.com/cicadahq",
-    "discord": "https://discord.gg/g2PRPm4u4Y"
+    "github": "https://github.com/cicadahq/cicada",
+    "discord": "https://cicada.build/discord"
   },
   "modeToggle": {
     "default": "dark",

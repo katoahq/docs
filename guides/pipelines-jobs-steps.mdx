@@ -1,34 +1,13 @@
 ---
-title: What are Pipelines, Jobs, & Steps
+title: What are Pipelines, Jobs & Steps
 description: "Welcome to your new Mintlify documentation. Get started making it yours."
 ---
 
-<img src="/images/banner.png" />
+* **Pipeline**: A pipeline is the highest level concept in Cicada. It is a TypeScript file like `build.ts`, `deploy,ts`, or `run_tests.ts`. A pipeline is triggered when an event occurs in your repository such as a new commit or a pull request being opened. A pipeline is an array of jobs that are executed sequentially or in parallel.  
+* **Jobs**: A job is an array of steps executed on the same container/runner.
+* **Steps**: A step is either a shell script or Deno script executed in the job's container
 
-## Setting up
-The first step to world-class documentation is setting up your editing environnments. 
-<CardGroup cols={2}>
-  <Card title="Edit Your Docs" icon="pen-to-square" href="https://mintlify.com/docs/quickstart">
-    Get your docs set up locally for easy development.
-  </Card>
-  <Card title="Preview Changes" icon="image" href="https://mintlify.com/docs/development">
-    Preview your changes before you push to make sure they're perfect.
-  </Card>
-</CardGroup>
 
-## Make it yours
-Update your docs to your brand and add valuable content for the best user conversion. 
-<CardGroup cols={2}>
-  <Card title="Customize Style" icon="palette" href="https://mintlify.com/docs/settings/global" >
-    Customize your docs to your company's colors and brands.
-  </Card>
-  <Card title="Reference APIs" icon="code" href="https://mintlify.com/docs/api-playground/openapi" >
-    Automatically generate endpoints from an OpenAPI spec.
-  </Card>
-  <Card title="Add Components" icon="screwdriver-wrench" href="https://mintlify.com/docs/components/accordion">
-    Build interactive features and designs to guide your users.
-  </Card>
-  <Card title="Get Inspiration" icon="stars" href="https://mintlify.com/showcase">
-    Check out our showcase of our favorite documentation. 
-  </Card>
-</CardGroup>
+<img src="/images/pipelines-jobs-steps.png" />
+
+
