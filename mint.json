@@ -47,8 +47,10 @@
     {
       "group": "Other",
       "pages": [
-        "Support",
-        "Roadmap"
+        "support",
+        "faq",
+        "roadmap", 
+        "enterprise"
       ]
     }
   ],
