@@ -1,7 +1,11 @@
 {
   "$schema": "https://mintlify.com/schema.json",
   "name": "Cicada Docs",
-  "logo": "/logo/logo.svg",
+  "logo": {
+    "light": "/logo/full_logo.png",
+    "dark": "/logo/full_logo.png",
+    "href": "https://cicada.build"
+  },
   "favicon": "/favicon.png",
   "colors": {
     "primary": "#38bef8",
