@@ -35,7 +35,7 @@
   "navigation": [
     {
       "group": "Getting Started",
-      "pages": ["get-started", "cloud-pipelines"]
+      "pages": ["welcome", "local-pipelines", "cloud-pipelines"]
     },
     {
       "group": "How do pipelines work",
