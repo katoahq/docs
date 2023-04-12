@@ -1,17 +1,55 @@
 ---
-title: Welcome to Cicada!
+title: Quickstart
 ---
 
-Cicada is lets you build CI/CD pipelines in TypeScript then run them in our cloud.
+Cicada is a CI/CD platform. Use our TypeScript SDK to write pipelines, then run them on every PR in our ultra-fast cloud 
 
-We is made of two key parts:
-1. **Framework**: Build CI/CD pipelines in TypeScript
-2. **Cloud**: Run your pipelines in the cloud on every PR. 
 
-With features like local testing and cross-pipeline caching, we're trying to be the fastest CI/CD tool out there.
+Here's how to deploy your own Cicada pipeline in under < 2 minutes.
 
-But rather than telling you about it, why don't you just try it yourself! 
 
-<Card title="Get started" icon="Play"  href="/local-pipelines">
-  Set up your first Cicada pipeline in < 1 minute>
-</Card>
+## 1. Create a Cicada Account
+Sign up at [cicada.build/dashboard](https://cicada.build/dashboard)
+
+
+## 2. Link a repository
+Cicada will run your pipelines on every commit / PR to your linked repos.
+<img src="/images/link-repository.png" />
+
+
+## 3. Download the `cicada` CLI
+
+<Snippet file="install-cli.mdx" />
+
+
+## 4. Create a new pipeline
+
+Navigate to your project from step #2 then run 
+
+```bash
+cicada init
+```
+This will create a simple example pipeline at `.cicada/my-pipeline.ts` that looks like [this](/guides/pipeline-examples)
+
+## 5. Test your pipeline locally
+Test changes to your pipelines locally using the `cicada` CLI
+```bash
+cicada run my-pipeline
+```
+
+## 6. Push your pipeline to GitHub
+
+```bash
+git add .
+git commit -m "feat:added cicada pipeline"
+git push origin main
+```
+
+## 7. View your pipeline logs
+
+Now go to [cicada.build/dashboard](https://cicada.build/dashboard) and watch your pipeline logs live!
+
+
+## 8. That's it!
+Check out our [guides](/guides) or [faq](/other/faq) to learn more
+

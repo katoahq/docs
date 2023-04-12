@@ -1,13 +1,16 @@
 ---
-title: What are Pipelines, Jobs & Steps
-description: "Welcome to your new Mintlify documentation. Get started making it yours."
+title: What are pipelines, jobs & steps
 ---
 
-* **Pipeline**: A pipeline is the highest level concept in Cicada. It is a TypeScript file like `build.ts`, `deploy,ts`, or `run_tests.ts`. A pipeline is triggered when an event occurs in your repository such as a new commit or a pull request being opened. A pipeline is an array of jobs that are executed sequentially or in parallel.  
-* **Jobs**: A job is an array of steps executed on the same container/runner.
-* **Steps**: A step is either a shell script or Deno script executed in the job's container
+* **Pipeline**: A pipeline is the highest level concept in Cicada. It is a TypeScript file like `build.ts`, `deploy.ts`, or `run_tests.ts`. A pipeline run is triggered when an event occurs in your repository such as a new commit or a pull request being opened. It takes one parameter: an array of jobs that are executed sequentially or in parallel.  
+* **Jobs**: A job is a lightweight container that executes code. It takes one parameter: an array of steps.
+* **Steps**: A step is either a shell script or Deno script that executes in its parent job's container
 
 
 <img src="/images/pipelines-jobs-steps.png" />
 
 
+
+<Card title="Next: Create a pipeline" icon="play" href="create-pipeline">
+Create a pipeline in a git repo
+</Card>
