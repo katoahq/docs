@@ -32,6 +32,11 @@
       "name": "GitHub",
       "icon": "github",
       "url": "https://github.com/cicadahq/cicada"
+    },
+    {
+      "name": "TypeScript SDK",
+      "icon": "square-js",
+      "url": "https://deno.land/x/cicada/mod.ts"
     }
   ],
   "navigation": [
