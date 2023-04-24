@@ -6,11 +6,8 @@
 # Install dependencies
 yarn
 
-# Install mintlify CLI
-npm i -g mintlify
-
 # Start dev server
-mintlify dev
+yarn dev
 ```
 
 ### Publishing Changes
