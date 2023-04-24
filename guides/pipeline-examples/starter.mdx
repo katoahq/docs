@@ -1,0 +1,38 @@
+---
+title: Starter Example
+---
+
+This is the default pipeline when you initaite a new Cicada project.
+
+It shows off the basic features of Cicada:
+
+- Creating a job with a name and image
+- Running a shell command
+- Running a deno script that interacts with the local file system and environment variables
+
+```typescript
+import { Pipeline, Job } from "https://deno.land/x/cicada/mod.ts";
+
+const job = new Job({
+  name: "My First Job",
+  image: "ubuntu:22.04",
+  steps: [
+    {
+      name: "Run bash",
+      run: "echo hello from bash!",
+    },
+    {
+      name: "Run deno/typescript",
+      run: () => {
+        console.log("Hello from deno typescript");
+        console.log("I can read the local file system for my project");
+        console.log(Array.from(Deno.readDirSync("/app")));
+        console.log("Or I can see my environment variables");
+        console.log(Deno.env.toObject());
+      },
+    },
+  ],
+});
+
+export default new Pipeline([job]);
+```

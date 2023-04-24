@@ -12,10 +12,12 @@
     "light": "#4D9CFF",
     "dark": "#0050B4"
   },
-  "topbarLinks": [{
-    "name": "Login",
-    "url": "https://cicada.build/login"
-  }],
+  "topbarLinks": [
+    {
+      "name": "Login",
+      "url": "https://cicada.build/login"
+    }
+  ],
   "topbarCtaButton": {
     "name": "Sign Up",
     "url": "https://cicada.build/signup"
@@ -30,6 +32,11 @@
       "name": "GitHub",
       "icon": "github",
       "url": "https://github.com/cicadahq/cicada"
+    },
+    {
+      "name": "TypeScript SDK",
+      "icon": "square-js",
+      "url": "https://deno.land/x/cicada/mod.ts"
     }
   ],
   "navigation": [
@@ -40,29 +47,30 @@
     {
       "group": "Guides",
       "pages": [
-      "guides/pipelines-jobs-steps", 
-      "guides/create-pipeline", 
-      "guides/edit-pipeline", 
-      "guides/test-pipeline", 
-      "guides/deploy-pipeline", 
-      "guides/autocomplete", 
-      "guides/pipeline-examples"]
+        "guides/pipelines-jobs-steps",
+        "guides/create-pipeline",
+        "guides/edit-pipeline",
+        "guides/test-pipeline",
+        "guides/deploy-pipeline",
+        "guides/autocomplete",
+        {
+          "group": "Pipeline Examples",
+          "pages": [
+            "guides/pipeline-examples/starter",
+            "guides/pipeline-examples/node",
+            "guides/pipeline-examples/jest",
+            "guides/pipeline-examples/rust"
+          ]
+        }
+      ]
     },
     {
       "group": "Reference",
-      "pages": [
-        "reference/cli",
-        "reference/sdk"
-      ]
+      "pages": ["reference/cli", "reference/sdk"]
     },
     {
       "group": "Other",
-      "pages": [
-        "support",
-        "other/enterprise",
-        "faq",
-        "roadmap"
-      ]
+      "pages": ["support", "other/enterprise", "faq", "roadmap"]
     }
   ],
   "footerSocials": {

@@ -1,0 +1,12 @@
+{
+  "name": "docs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "mintlify dev"
+  },
+  "devDependencies": {
+    "mintlify": "^3.0.25"
+  }
+}
