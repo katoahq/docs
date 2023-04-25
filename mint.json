@@ -42,9 +42,7 @@
   "navigation": [
     {
       "group": "Welcome",
-      "pages": [
-        "welcome"
-      ]
+      "pages": ["welcome"]
     },
     {
       "group": "Guides",
@@ -68,19 +66,11 @@
     },
     {
       "group": "Reference",
-      "pages": [
-        "reference/cli",
-        "reference/sdk"
-      ]
+      "pages": ["reference/cli", "reference/sdk"]
     },
     {
       "group": "Other",
-      "pages": [
-        "support",
-        "other/enterprise",
-        "faq",
-        "roadmap"
-      ]
+      "pages": ["support", "other/enterprise", "faq", "roadmap"]
     }
   ],
   "footerSocials": {
@@ -91,5 +81,11 @@
   "modeToggle": {
     "default": "dark",
     "isHidden": true
+  },
+  "analytics": {
+    "posthog": {
+      "apiHost": "https://ph.cicada.build",
+      "apiKey": "phc_EbPFPF9ZVULAjixycI3E0ozajaIoidqTrUOlrXny1M7"
+    }
   }
 }
