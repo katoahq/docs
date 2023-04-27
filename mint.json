@@ -52,6 +52,7 @@
         "guides/edit-pipeline",
         "guides/test-pipeline",
         "guides/deploy-pipeline",
+        "guides/secrets.mdx",
         "guides/autocomplete",
         {
           "group": "Pipeline Examples",
