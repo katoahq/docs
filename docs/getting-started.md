@@ -20,10 +20,6 @@ yarn global add @katoahq/katoa
 pnpm install -g @katoahq/katoa 
 ```
 
-```bash [brew]
-brew install katoa
-```
-
 **Note:** Katoa requires [Docker](https://docs.docker.com/engine/install/) & [deno](https://deno.land/manual@v1.32.3/getting_started/installation)
 
 
