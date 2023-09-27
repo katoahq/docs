@@ -1,17 +1,15 @@
----
-title: Edit a pipeline
----
+# Edit a pipeline
 
 ### What are the core building blocks of pipelines?
 
-- A **pipeline** is a file in your `.cicada/` folder.
+- A **pipeline** is a file in your `.katoa/` folder.
 - A **job** is a container that executes code.
 - A **step** is script (bash or deno) that runs in a job's container
 
 ### What does a pipeline look like?
 
 ```typescript my-pipeline.ts
-import { Pipeline, Job } from "https://deno.land/x/cicada/mod.ts";
+import { Pipeline, Job } from "https://deno.land/x/katoa/mod.ts";
 
 const job = new Job({
   name: "My First Job",
@@ -50,10 +48,7 @@ Teams create pipelines for the following reasons:
 
 ## How do I edit my pipeline?
 
-Cicada's SDK lets you do all of the above and more - it's incredibly flexible.
+Katoa's SDK lets you do all of the above and more - it's incredibly flexible.
 
 Learn more by reading our [SDK docs](/reference/sdk), playing with [pipeline examples](/pipeline-examples/starter), or setting up [autocomplete/intellisense](/guides/autocomplete)
 
-<Card title="Next: Test your pipeline" icon="pencil" href="test-pipeline">
-  Test your pipeline on your local device
-</Card>

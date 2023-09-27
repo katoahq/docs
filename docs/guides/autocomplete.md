@@ -1,8 +1,6 @@
----
-title: Set up autocomplete/intellisense
----
+# Set up autocomplete/intellisense
 
-Set up autocomplete/intellisense for the Cicada TypeScript SDK
+Set up autocomplete/intellisense for the Katoa TypeScript SDK
 
 ### 1. Install the Deno extension for VSCode:
 
@@ -17,11 +15,11 @@ code --install-extension denoland.vscode-deno
 
 ```json
 {
-  "deno.enablePaths": [".cicada"]
+  "deno.enablePaths": [".katoa"]
 }
 ```
 
-This will enable the Deno extension for the `.cicada` directory.
+This will enable the Deno extension for the `.katoa` directory.
 
 ### 3. Make sure Deno is installed
 If running `which deno` shows Deno is not installed, download it from https://deno.com/manual@v1.32.5/getting_started/installation

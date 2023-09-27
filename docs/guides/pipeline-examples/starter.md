@@ -1,10 +1,8 @@
----
-title: Starter Example
----
+# Starter Example
 
-This is the default pipeline that's created when you run `cicada init`
+This is the default pipeline that's created when you run `katoa init`
 
-It shows off the basic features of Cicada:
+It shows off the basic features of Katoa:
 
 - Creating a job with a name and image
 - Running a shell command
@@ -12,7 +10,7 @@ It shows off the basic features of Cicada:
 - Trigger the pipeline on push/pull request to main
 
 ```typescript
-import { Job, Pipeline } from "https://deno.land/x/cicada/mod.ts";
+import { Job, Pipeline } from "https://deno.land/x/katoa/mod.ts";
 
 const job = new Job({
   name: "My First Job",

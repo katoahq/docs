@@ -1,6 +1,4 @@
----
-title: Rust Example
----
+# Rust Example
 
 The pipeline runs two jobs, one for linting and one for building the project.
 
@@ -11,7 +9,7 @@ import {
   CacheDirectories,
   Job,
   Pipeline,
-} from "https://deno.land/x/cicada/mod.ts";
+} from "https://deno.land/x/katoa/mod.ts";
 
 const cacheDirectories: CacheDirectories = [
   "target",

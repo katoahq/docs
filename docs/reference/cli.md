@@ -1,16 +1,17 @@
 ---
-title: CLI
-description: "Use the Cicada CLI to run pipelines locally"
+description: "Use the Katoa CLI to run pipelines locally"
 ---
 
+# CLI
+
 ```bash
-Usage: cicada <COMMAND>
+Usage: katoa <COMMAND>
 
 Commands:
-  run <pipeline>    Run a cicada pipeline
-  init              Initialize a cicada project
-  new <pipeline>    Create a cicada pipeline in nearest .cicada/ directory
-  update            Update cicada
+  run <pipeline>    Run a katoa pipeline
+  init              Initialize a katoa project
+  new <pipeline>    Create a katoa pipeline in nearest .katoa/ directory
+  update            Update katoa
   completions       Install shell completions
 
 Options:
@@ -19,7 +20,7 @@ Options:
 ```
 
 ```bash
-Usage: cicada run <pipeline> [OPTIONS]
+Usage: katoa run <pipeline> [OPTIONS]
 
   --no-cache
       Disable caching
@@ -41,6 +42,6 @@ Usage: cicada run <pipeline> [OPTIONS]
 
   --oci-backend <OCI_BACKEND>
       The OCI backend to use. Possible values are "docker", "podman". Default is docker.
-      You can also set CICADA_OCI_BACKEND env variable
+      You can also set KATOA_OCI_BACKEND env variable
 ```
 
