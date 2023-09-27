@@ -1,67 +1,70 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  lang: 'en-US',
+  lang: "en-US",
   title: "Katoa",
   description: "Katoa - Pipeline written in TypeScript",
-  base: '/docs/',
-  head: [['link', { rel: 'icon', href: '/docs/favicon.png' }]],
+  base: "/docs/",
+  head: [["link", { rel: "icon", href: "/docs/public/favicon.png" }]],
   themeConfig: {
-    logo: '/favicon.png',
+    logo: "/public/favicon.png",
 
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Getting Started', link: '/getting-started' },
-      { text: 'Guides', link: '/guides/pipelines-jobs-steps' },
-      { text: 'Reference', link: '/reference/cli' },
-      { text: 'Other', link: '/support' }
+      { text: "Home", link: "/" },
+      { text: "Getting Started", link: "/getting-started" },
+      { text: "Guides", link: "/guides/pipelines-jobs-steps" },
+      { text: "Reference", link: "/reference/cli" },
+      { text: "Other", link: "/support" },
     ],
 
     sidebar: [
       {
-        text: 'Getting Started',
-        link: '/getting-started',
+        text: "Getting Started",
+        link: "/getting-started",
       },
       {
-        text: 'Guides',
+        text: "Guides",
         items: [
-          { text: 'Pipelines, Jobs and Steps', link: '/guides/pipelines-jobs-steps' },
-          { text: 'Create a Pipeline', link: '/guides/create-pipeline' },
-          { text: 'Edit a Pipeline', link: '/guides/edit-pipeline' },
-          { text: 'Test a Pipeline', link: '/guides/test-pipeline' },
-          { text: 'Secrets', link: '/guides/secrets' },
-          { text: 'Autocomplete', link: '/guides/autocomplete' },
+          {
+            text: "Pipelines, Jobs and Steps",
+            link: "/guides/pipelines-jobs-steps",
+          },
+          { text: "Create a Pipeline", link: "/guides/create-pipeline" },
+          { text: "Edit a Pipeline", link: "/guides/edit-pipeline" },
+          { text: "Test a Pipeline", link: "/guides/test-pipeline" },
+          { text: "Secrets", link: "/guides/secrets" },
+          { text: "Autocomplete", link: "/guides/autocomplete" },
         ],
       },
       {
-        text: 'Examples',
+        text: "Examples",
         items: [
-          { text: 'Starter', link: '/guides/pipeline-examples/starter' },
-          { text: 'Node', link: '/guides/pipeline-examples/node' },
-          { text: 'Jest', link: '/guides/pipeline-examples/jest' },
-          { text: 'Rust', link: '/guides/pipeline-examples/rust' },
+          { text: "Starter", link: "/guides/pipeline-examples/starter" },
+          { text: "Node", link: "/guides/pipeline-examples/node" },
+          { text: "Jest", link: "/guides/pipeline-examples/jest" },
+          { text: "Rust", link: "/guides/pipeline-examples/rust" },
         ],
       },
       {
-        text: 'Reference',
+        text: "Reference",
         items: [
-          { text: 'CLI', link: '/reference/cli' },
-          { text: 'SDK', link: '/reference/sdk' },
+          { text: "CLI", link: "/reference/cli" },
+          { text: "SDK", link: "/reference/sdk" },
         ],
       },
       {
-        text: 'Other',
+        text: "Other",
         items: [
-          { text: 'Support', link: '/support' },
-          { text: 'FAQ', link: '/faq' },
-          { text: 'Roadmap', link: '/roadmap' },
-        ]
-      }
+          { text: "Support", link: "/support" },
+          { text: "FAQ", link: "/faq" },
+          { text: "Roadmap", link: "/roadmap" },
+        ],
+      },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/katoahq' },
-      { icon: 'discord', link: 'https://discord.gg/7qNBeGmB5A' },
-    ]
-  }
-})
+      { icon: "github", link: "https://github.com/katoahq" },
+      { icon: "discord", link: "https://discord.gg/7qNBeGmB5A" },
+    ],
+  },
+});
