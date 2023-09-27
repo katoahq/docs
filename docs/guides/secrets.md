@@ -6,10 +6,10 @@ The Secret class is used to create a new secret, which can be used in jobs and s
 
 ## Creating and using secrets
 
-To create a new secret, you need to import the Secret class from the Cicada library:
+To create a new secret, you need to import the Secret class from the Katoa library:
 
 ```typescript
-import { Secret } from "https://deno.land/x/cicada/mod.ts";
+import { Secret } from "https://deno.land/x/katoa/mod.ts";
 ```
 
 Then, create a new instance of the Secret class, passing the secret name as an argument. The secret name should match the one stored in your secrets storage or environment variables:
@@ -38,7 +38,7 @@ const secretValue = await secret.value();
 
 ## CLI
 
-The `cicada run` command takes several arguments that can be used to manage secrets in your pipeline.
+The `katoa run` command takes several arguments that can be used to manage secrets in your pipeline.
 
 ### `-s, --secret <SECRET>`
 
@@ -47,7 +47,7 @@ Specify the name of the secret to use in the pipeline. The value of the secret i
 Example:
 
 ```bash
-cicada run --secret GITHUB_TOKEN
+katoa run --secret GITHUB_TOKEN
 ```
 
 ### `--no-dotenv`
@@ -57,7 +57,7 @@ Disable loading secrets from a .env file. Use this flag if you want to ensure th
 Example:
 
 ```bash
-cicada run --no-dotenv
+katoa run --no-dotenv
 ```
 
 ### `--dotenv <DOTENV>`
@@ -67,7 +67,7 @@ Specify a custom .env file to load secrets from. This will override the default 
 Example:
 
 ```bash
-cicada run --dotenv custom-env-file.env
+katoa run --dotenv custom-env-file.env
 ```
 
 ### `--secrets-json <SECRETS_JSON>`
@@ -83,7 +83,7 @@ Example JSON file format:
 To use this flag, provide the path to the JSON file containing the secrets:
 
 ```bash
-cicada run --secrets-json secrets.json
+katoa run --secrets-json secrets.json
 ```
 
 By using these CLI flags, you can easily manage and load secrets from various sources, making it more convenient and secure to work with sensitive information in your CI/CD pipeline.

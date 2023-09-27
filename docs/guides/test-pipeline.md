@@ -5,7 +5,7 @@ title: Test a pipeline
 Test your pipeline locally by running the following anywhere in your project
 
 ```bash
-cicada run <pipeline>
+katoa run <pipeline>
 ```
 
 <em>

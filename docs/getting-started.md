@@ -2,35 +2,35 @@
 title: Quickstart
 ---
 
-Cicada is a CI/CD platform. Use our TypeScript SDK to write pipelines, test them locally, then run them on every PR in our ultra-fast cloud
+Katoa is a CI/CD platform. Use our TypeScript SDK to write pipelines, test them locally, then run them on every PR in our ultra-fast cloud
 
-Here's how to build, test, and deploy your own Cicada pipeline in under < 2 minutes.
+Here's how to build, test, and deploy your own Katoa pipeline in under < 2 minutes.
 
-## 1. Download the `cicada` CLI
+## 1. Download the `katoa` CLI
 
 ::: code-group
 
 ```bash [npm]
-npm install -g @cicadahq/cicada 
+npm install -g @katoahq/katoa 
 ```
 
 ```bash [yarn]
-yarn global add @cicadahq/cicada 
+yarn global add @katoahq/katoa 
 ```
 
 ```bash [pnpm]
-pnpm install -g @cicadahq/cicada 
+pnpm install -g @katoahq/katoa 
 ```
 
 ```bash [brew]
-brew install cicada
+brew install katoa
 ```
 
 ```bash [curl]
-curl -fSsL https://cicada.build/install | sh
+curl -fSsL https://katoa.build/install | sh
 ```
 
-<em>Note: Cicada requires [Docker](https://docs.docker.com/engine/install/) & [deno](https://deno.land/manual@v1.32.3/getting_started/installation)</em>
+<em>Note: Katoa requires [Docker](https://docs.docker.com/engine/install/) & [deno](https://deno.land/manual@v1.32.3/getting_started/installation)</em>
 
 
 :::
@@ -40,26 +40,26 @@ curl -fSsL https://cicada.build/install | sh
 Navigate to a project and run
 
 ```bash
-cicada init
+katoa init
 ```
 
-This will create help you the default piplines at `.cicada/<pipeline-name>.ts` that looks like [this](/guides/pipeline-examples/starter)
+This will create help you the default piplines at `.katoa/<pipeline-name>.ts` that looks like [this](/guides/pipeline-examples/starter)
 
 ## 3. Test your pipeline locally
 
-Test changes to your pipelines locally using the `cicada` CLI
+Test changes to your pipelines locally using the `katoa` CLI
 
 ```bash
-cicada run <pipeline-name>
+katoa run <pipeline-name>
 ```
 
-## 4. Create a Cicada Account
+## 4. Create a Katoa Account
 
-Sign up at [cicada.build/dashboard](https://cicada.build/dashboard)
+Sign up at [katoa.build/dashboard](https://katoa.build/dashboard)
 
 ## 5. Link your repository
 
-Link your repository from step #2. Cicada will now run your pipelines on every commit / PR to your linked repos.
+Link your repository from step #2. Katoa will now run your pipelines on every commit / PR to your linked repos.
 
 <img src="/images/link-repository.png" />
 
@@ -67,13 +67,13 @@ Link your repository from step #2. Cicada will now run your pipelines on every c
 
 ```bash
 git add .
-git commit -m "feat:added cicada pipeline"
+git commit -m "feat:added katoa pipeline"
 git push origin main
 ```
 
 ## 7. View your pipeline logs
 
-Now go to [cicada.build/dashboard](https://cicada.build/dashboard) and watch your pipeline logs live!
+Now go to [katoa.build/dashboard](https://katoa.build/dashboard) and watch your pipeline logs live!
 
 ## 8. That's it!
 

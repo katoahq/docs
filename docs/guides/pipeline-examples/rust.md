@@ -11,7 +11,7 @@ import {
   CacheDirectories,
   Job,
   Pipeline,
-} from "https://deno.land/x/cicada/mod.ts";
+} from "https://deno.land/x/katoa/mod.ts";
 
 const cacheDirectories: CacheDirectories = [
   "target",
