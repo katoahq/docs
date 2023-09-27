@@ -1,10 +1,14 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  lang: 'en-US',
   title: "Katoa",
-  description: "Katoa",
+  description: "Katoa - Pipeline written in TypeScript",
   base: '/docs/',
+  head: [['link', { rel: 'icon', href: '/favicon.png' }]],
   themeConfig: {
+    logo: '/favicon.png',
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Getting Started', link: '/getting-started' },
