@@ -6,4 +6,4 @@ title: What are pipelines, jobs & steps
 - **Jobs**: A job is a lightweight container that executes code. It takes one parameter: an array of steps.
 - **Steps**: A step is either a shell script or Deno/TypeScript script that executes in its parent job's container
 
-<img src="/images/pipelines-jobs-steps.png" />
+<img src="/docs/images/pipelines-jobs-steps.png" />

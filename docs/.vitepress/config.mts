@@ -5,7 +5,7 @@ export default defineConfig({
   title: "Katoa",
   description: "Katoa - Pipeline written in TypeScript",
   base: '/docs/',
-  head: [['link', { rel: 'icon', href: '/favicon.png' }]],
+  head: [['link', { rel: 'icon', href: '/docs/favicon.png' }]],
   themeConfig: {
     logo: '/favicon.png',
 

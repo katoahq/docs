@@ -1,9 +1,3 @@
-# Katoa Team Note
-
-This is a mintlify docs project, we don't use mintlify anymore, you can use this repo while we work something else out.
-
----
-
 # Katoa Docs
 
 ### Development
