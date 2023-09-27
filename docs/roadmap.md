@@ -4,9 +4,6 @@ description: "What's next for Katoa"
 ---
 
 - [x] Local runner execution
-- [x] Cloud dashbaord
-- [x] Link to GitHub repo
-- [x] Cloud runner execution
 - [x] Secret injection
 - [x] Integration marketplace (See [github.com/katoa/modules](https://github.com/katoahq/modules))
 - [x] Parallel job execution (execute multiple jobs on the same machine at the same time)

@@ -23,10 +23,6 @@ pnpm install -g @katoahq/katoa
 brew install katoa
 ```
 
-```bash [curl]
-curl -fSsL https://katoa.build/install | sh
-```
-
 <em>Note: Katoa requires [Docker](https://docs.docker.com/engine/install/) & [deno](https://deno.land/manual@v1.32.3/getting_started/installation)</em>
 
 

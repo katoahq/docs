@@ -29,7 +29,6 @@ export default defineConfig({
           { text: 'Create a Pipeline', link: '/guides/create-pipeline' },
           { text: 'Edit a Pipeline', link: '/guides/edit-pipeline' },
           { text: 'Test a Pipeline', link: '/guides/test-pipeline' },
-          { text: 'Deploy a Pipeline', link: '/guides/deploy-pipeline' },
           { text: 'Secrets', link: '/guides/secrets' },
           { text: 'Autocomplete', link: '/guides/autocomplete' },
         ],
