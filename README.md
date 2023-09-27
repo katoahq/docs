@@ -1,3 +1,9 @@
+# Katoa Team Note
+
+This is a mintlify docs project, we don't use mintlify anymore, you can use this repo while we work something else out.
+
+---
+
 # Cicada Docs
 
 ### Development
@@ -14,5 +20,4 @@ yarn dev
 
 Changes will be deployed to [cicada.build/docs](https://cicada.build/docs) after merging into `main`
 
-Preview links will be added as comments to all PRs 
-
+Preview links will be added as comments to all PRs
