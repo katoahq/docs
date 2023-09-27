@@ -10,10 +10,10 @@ This is a mintlify docs project, we don't use mintlify anymore, you can use this
 
 ```bash
 # Install dependencies
-yarn
+pnpm i
 
 # Start dev server
-yarn dev
+pnpm dev
 ```
 
 ### Publishing Changes

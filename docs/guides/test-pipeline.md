@@ -15,7 +15,3 @@ cicada run <pipeline>
 </em>
 
 The first run will be a little slow as there is no caching. But afterwards it should be plenty fast!
-
-<Card title="Next: Deploy your pipeline" icon="pencil" href="deploy-pipeline">
-  Deploy your pipeline to Cicada's cloud so it runs on every commit and PR
-</Card>

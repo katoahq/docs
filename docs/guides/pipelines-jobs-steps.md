@@ -7,7 +7,3 @@ title: What are pipelines, jobs & steps
 - **Steps**: A step is either a shell script or Deno/TypeScript script that executes in its parent job's container
 
 <img src="/images/pipelines-jobs-steps.png" />
-
-<Card title="Next: Create a pipeline" icon="play" href="create-pipeline">
-  Create a pipeline in a git repo
-</Card>

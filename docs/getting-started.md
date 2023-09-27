@@ -8,7 +8,32 @@ Here's how to build, test, and deploy your own Cicada pipeline in under < 2 minu
 
 ## 1. Download the `cicada` CLI
 
-<Snippet file="install-cli.mdx" />
+::: code-group
+
+```bash [npm]
+npm install -g @cicadahq/cicada 
+```
+
+```bash [yarn]
+yarn global add @cicadahq/cicada 
+```
+
+```bash [pnpm]
+pnpm install -g @cicadahq/cicada 
+```
+
+```bash [brew]
+brew install cicada
+```
+
+```bash [curl]
+curl -fSsL https://cicada.build/install | sh
+```
+
+<em>Note: Cicada requires [Docker](https://docs.docker.com/engine/install/) & [deno](https://deno.land/manual@v1.32.3/getting_started/installation)</em>
+
+
+:::
 
 ## 2. Create a new pipeline
 

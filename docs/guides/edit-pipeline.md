@@ -54,6 +54,3 @@ Cicada's SDK lets you do all of the above and more - it's incredibly flexible.
 
 Learn more by reading our [SDK docs](/reference/sdk), playing with [pipeline examples](/pipeline-examples/starter), or setting up [autocomplete/intellisense](/guides/autocomplete)
 
-<Card title="Next: Test your pipeline" icon="pencil" href="test-pipeline">
-  Test your pipeline on your local device
-</Card>
