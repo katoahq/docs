@@ -1,6 +1,6 @@
 {
   "name": "docs",
-  "packageManager": "^pnpm@8.7.5",
+  "packageManager": "pnpm@8.7.5",
   "engines": {
     "node": ">=18"
   },
