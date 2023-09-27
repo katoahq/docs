@@ -50,5 +50,4 @@ Teams create pipelines for the following reasons:
 
 Katoa's SDK lets you do all of the above and more - it's incredibly flexible.
 
-Learn more by reading our [SDK docs](/reference/sdk), playing with [pipeline examples](/pipeline-examples/starter), or setting up [autocomplete/intellisense](/guides/autocomplete)
-
+Learn more by reading our [SDK docs](/reference/sdk), playing with [pipeline examples](/guides/pipeline-examples/starter), or setting up [autocomplete/intellisense](/guides/autocomplete)

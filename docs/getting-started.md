@@ -9,19 +9,18 @@ Here's how to build, test, and deploy your own Katoa pipeline in under < 2 minut
 ::: code-group
 
 ```bash [npm]
-npm install -g @katoahq/katoa 
+npm install -g @katoahq/katoa
 ```
 
 ```bash [yarn]
-yarn global add @katoahq/katoa 
+yarn global add @katoahq/katoa
 ```
 
 ```bash [pnpm]
-pnpm install -g @katoahq/katoa 
+pnpm install -g @katoahq/katoa
 ```
 
 **Note:** Katoa requires [Docker](https://docs.docker.com/engine/install/) & [deno](https://deno.land/manual@v1.32.3/getting_started/installation)
-
 
 :::
 
@@ -45,4 +44,4 @@ katoa run <pipeline-name>
 
 ## 4. That's it!
 
-Check out our [guides](/guides) or [faq](/other/faq) to learn more
+Check out our [guides](/guides/pipelines-jobs-steps) or [faq](/faq) to learn more
