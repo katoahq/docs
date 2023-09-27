@@ -9,7 +9,6 @@
     "preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "mintlify": "^3.0.25",
     "vitepress": "1.0.0-rc.20"
   }
 }
