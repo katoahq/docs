@@ -1,7 +1,4 @@
----
-title: Typescript SDK
----
-
+# Typescript SDK
 
 ```typescript
 import {Pipeline, Job, Secret} from "https://deno.land/x/katoa/mod.ts"

@@ -1,7 +1,8 @@
 ---
-title: Roadmap
 description: "What's next for Katoa"
 ---
+
+# Roadmap
 
 - [x] Local runner execution
 - [x] Secret injection

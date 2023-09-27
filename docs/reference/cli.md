@@ -1,7 +1,8 @@
 ---
-title: CLI
 description: "Use the Katoa CLI to run pipelines locally"
 ---
+
+# CLI
 
 ```bash
 Usage: katoa <COMMAND>

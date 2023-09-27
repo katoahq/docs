@@ -1,6 +1,4 @@
----
-title: Test a pipeline
----
+# Test a pipeline
 
 Test your pipeline locally by running the following anywhere in your project
 

@@ -1,7 +1,4 @@
----
-title: FAQ
----
-
+# FAQ
 
 ### How do you encrypt secrets?
 We use [Vault](https://www.vaultproject.io/) by HashiCorp

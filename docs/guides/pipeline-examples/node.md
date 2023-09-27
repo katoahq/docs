@@ -1,6 +1,4 @@
----
-title: Node Example
----
+# Node Example
 
 This is a simple example of a Node.js project using Katoa.
 

@@ -1,6 +1,4 @@
----
-title: Step secrets
----
+# Step secrets
 
 The Secret class is used to create a new secret, which can be used in jobs and steps within the pipeline. Secrets are only accessible to the steps you expose them to.
 

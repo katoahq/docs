@@ -1,7 +1,4 @@
----
-title: Create a pipeline
-description: Set up a pipeline in your project
----
+# Create a pipeline
 
 ## 1. Make sure you have the `katoa` CLI installed
 

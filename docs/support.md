@@ -1,6 +1,4 @@
----
-title: Support
----
+# Support
 
 [![Discord](https://img.shields.io/discord/1156554342111924235?color=7289da&label=Discord&logo=discord&logoColor=white)](https://discord.gg/7qNBeGmB5A)
 

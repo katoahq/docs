@@ -1,6 +1,4 @@
----
-title: Edit a pipeline
----
+# Edit a pipeline
 
 ### What are the core building blocks of pipelines?
 

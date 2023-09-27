@@ -1,6 +1,4 @@
----
-title: Set up autocomplete/intellisense
----
+# Set up autocomplete/intellisense
 
 Set up autocomplete/intellisense for the Katoa TypeScript SDK
 

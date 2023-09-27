@@ -1,6 +1,4 @@
----
-title: Jest Example
----
+# Jest Example
 
 This runs jest tests on Node.js 14, 16, and 18.
 

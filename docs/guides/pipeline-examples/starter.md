@@ -1,6 +1,4 @@
----
-title: Starter Example
----
+# Starter Example
 
 This is the default pipeline that's created when you run `katoa init`
 

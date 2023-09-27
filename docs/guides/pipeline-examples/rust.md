@@ -1,6 +1,4 @@
----
-title: Rust Example
----
+# Rust Example
 
 The pipeline runs two jobs, one for linting and one for building the project.
 

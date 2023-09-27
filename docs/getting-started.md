@@ -1,6 +1,4 @@
----
-title: Getting Started
----
+# Getting Started
 
 Katoa is a CI/CD platform. Use our TypeScript SDK to write pipelines, test them locally, then run them on every PR.
 
