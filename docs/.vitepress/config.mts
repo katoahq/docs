@@ -7,7 +7,7 @@ export default defineConfig({
   base: "/docs/",
   head: [["link", { rel: "icon", href: "/docs/favicon.png" }]],
   themeConfig: {
-    logo: "/favicon.png",
+    logo: "/katoa-fit.png",
 
     nav: [
       { text: "Home", link: "/" },
